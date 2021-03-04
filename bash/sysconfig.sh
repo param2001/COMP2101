@@ -26,8 +26,9 @@ echo "errors are in script and  code is $?"
 }
 #This function displays help information if the user asks for it on the command line or gives us a bad command line
 function displayhelp {
-echo"you entered -h or --help options to get help"
+echo" enter -h for help"
 }
+
 
 # This function will remove all the temp files created by the script
 function cleanup {
