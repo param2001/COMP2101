@@ -39,7 +39,7 @@ function cleanup {
 <<<<<<< HEAD
 
 =======
-trap cleanup
+
 >>>>>>> b014a8805d495287ed4105619dce5068cef1375b
 # The temp files are all named similarly, "/tmp/somethinginfo.$$"
 # A trap command is used after the function definition to specify this function is to be run if we get a ^C while running
