@@ -36,7 +36,11 @@ function cleanup {
   exit
 }
 
+<<<<<<< HEAD
 
+=======
+trap cleanup
+>>>>>>> b014a8805d495287ed4105619dce5068cef1375b
 # The temp files are all named similarly, "/tmp/somethinginfo.$$"
 # A trap command is used after the function definition to specify this function is to be run if we get a ^C while running
 
@@ -50,8 +54,12 @@ function getipinfo {
   # reuse our netid.sh script from lab 4
  netid.sh
 }
+<<<<<<< HEAD
 # Trap command usage
 trap cleanup
+=======
+
+>>>>>>> b014a8805d495287ed4105619dce5068cef1375b
 # process command line options
 partialreport=
 while [ $# -gt 0 ]; do
